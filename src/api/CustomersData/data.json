@@ -1,0 +1,42 @@
+[
+    {
+        "customerId": 1,
+        "accountNumber": 5890528858,
+        "customerName": "Abbie Lyon",
+        "accountType": "Savings Account",
+        "customerBranch": "Home Branch",
+        "imageUrl": "../../assets/images/abbie.jpg"
+    },
+    {
+        "customerId": 2,
+        "accountNumber": 7274046587,
+        "customerName": "Evangeline Booth",
+        "accountType": "Current Account",
+        "customerBranch": "Remote Branch",
+        "imageUrl": "../../assets/images/evangeline.jpg"
+    },
+    {
+        "customerId": 3,
+        "accountNumber": 1761823111,
+        "customerName": "Asher Garner",
+        "accountType": "Savings Accont",
+        "customerBranch": "Remote Branch",
+        "imageUrl": "../../assets/images/asher.jpg"
+    },
+    {
+        "customerId": 4,
+        "accountNumber": 7538273759,
+        "customerName": "Norton Sanderson",
+        "accountType": "Savings Account",
+        "customerBranch": "Remote Branch",
+        "imageUrl": "../../assets/images/norton.jpg"
+    },
+    {
+        "customerId": 5,
+        "accountNumber": 2533591077,
+        "customerName": "Dipti Robertson",
+        "accountType": "Current Account",
+        "customerBranch": "SHome Branch",
+        "imageUrl": "../../assets/images/dipti.jpg"
+    }
+]

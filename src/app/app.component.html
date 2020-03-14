@@ -1,0 +1,31 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div >
+ 
+  <div>
+    <div class="container">
+    <nav class="navbar navbar-default" *ngIf="isUserLoggedIn" >
+      <div class="container-fluid">
+      
+      
+       <ul class="nav navbar-nav">
+
+        <li class="active">
+          <a class="navbar-brand" [routerLink]="['welcome']">
+          <i class="glyphicon glyphicon-home" aria-hidden="true"></i>
+          </a>
+        </li>      
+       <li><a [routerLink]="['customers']" >Customers</a></li>
+       <li><a [routerLink]="['productlist']" >Products</a></li>
+       <li><a >Billing</a></li>
+       </ul>
+       <ul class="nav navbar-nav navbar-right">
+        <li><a  (click)="logout()">logout</a></li>
+       
+      </ul>
+    </div>
+    </nav>
+  
+     <router-outlet></router-outlet>
+    </div>
+</div>
+</div>
