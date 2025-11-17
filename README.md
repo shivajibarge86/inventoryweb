@@ -1,4 +1,6 @@
 # ProductInventory
+@Pattern(regexp = "(?i)^(?!.*(?:'|\"|;|--|/\\*|\\*/|<|>|=|\\b(SELECT|INSERT|UPDATE|DELETE|DROP|EXEC|UNION|ALTER|CREATE|TRUNCATE|GRANT|REVOKE|XP_CMDSHELL)\\b|%3C|%3E|%27|%22|%3B|%2D%2D|%2F\\*|%2A%2F|0x[0-9A-F]+|CHAR\\s*\\(\\s*\\d+\\s*\\))).*$")
+private String input;
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
